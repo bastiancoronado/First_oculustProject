@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OVRCameraRigScene.unity
-    guid: 480e2daed5e9d4a44acddb0755d231c2
-  m_configObjects: {}
+    path: Assets/Scenes/GameScene_XRRigSetup.unity
+    guid: f5ba0d973db6725438bb46f344fb7b83
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dd43049fc0d39d44a86e6a21b8781bb3,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0945cdfd8e233e343bc6b9d86af6548a,
+      type: 2}
